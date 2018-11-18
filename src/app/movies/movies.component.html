@@ -7,3 +7,4 @@
   </div>
 </div>
 
+<app-movie-card *ngFor="let movie of movies$ | async" [movie]="movie"></app-movie-card>
